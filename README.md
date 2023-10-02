@@ -10,3 +10,14 @@ Welcome to [ProjectShowcase](https://github.com/JapmannKaur/ProjectShowcase/) Th
 
 ## Code of conduct
 Before you start contributing, please read our [**Code of Conduct**](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct). We want to maintain a friendly and inclusive environment for everyone.
+
+
+<style>
+  body {
+    color: red;
+  }
+</style>
+
+A very long sentence.
+
+bobbyhadz.com
