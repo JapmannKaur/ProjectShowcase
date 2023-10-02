@@ -1,5 +1,5 @@
 # ProjectShowcase
-
+<img src="https://github.com/JapmannKaur/ProjectShowcase/blob/main/icon.jpg" alt="Image Description">
 
 ## Introduction
 
