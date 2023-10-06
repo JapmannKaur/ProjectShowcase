@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <style>
+            body{
+                background: #141414;;
+            }
+
+        </style>
+
+</head>
+
+<body class="text-white">
+    <div class="container text-center">
+        <img src="https://raw.githubusercontent.com/bradtraversy/type-n-speak/master/dist/img/speech.png" alt=""
+            class="mb-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="form-group mb-3">
+                    <form>
+                        <textarea name="" id="text-input" class="form-control form-control-lg "
+                            placeholder="Enter Text Here"></textarea>
+                </div>
+                <div class="form-group">
+
+                    <label for="rate">Rate</label>
+                    <div id="rate-value" class="badge badge-primary float-right">1</div>
+                    <input type="range" class="custom-range " id="rate" min="0.5" max="2" value="1" step="0.1">
+                </div>
+                <div class="form-group mb-3">
+
+                    <label for="pitch">Pitch</label>
+                    <div id="pitch-value" class="badge badge-primary float-right">1</div>
+                    <input type="range" class="custom-range " id="pitch" min="0" max="2" value="1" step="0.1">
+                </div>
+                <div class="form-group">
+                    <select class="form-control form-control-lg mb-4" id="voice-select"></select>
+                </div>
+                <button class="btn btn-light btn-lg btn-block">Speak It</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
